@@ -1,0 +1,25 @@
+{
+  "name": "react-native-hr-component",
+  "version": "1.0.0",
+  "description": "Add horizontal rule (hr) to your react native app with a lot of customizations out of the box",
+  "main": "Hr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehulmpt/react-native-hr-component.git"
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "react native hr",
+    "react native hr component"
+  ],
+  "author": "Mehul Mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehulmpt/react-native-hr-component/issues"
+  },
+  "homepage": "https://github.com/mehulmpt/react-native-hr-component#readme"
+}
