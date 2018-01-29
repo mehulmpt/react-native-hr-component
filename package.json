@@ -1,6 +1,6 @@
 {
   "name": "react-native-hr-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add horizontal rule (hr) to your react native app with a lot of customizations out of the box",
   "main": "Hr.js",
   "scripts": {
