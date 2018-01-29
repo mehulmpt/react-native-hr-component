@@ -12,7 +12,7 @@ class Hr extends Component {
             { height: this.props.thickness || 1, backgroundColor: this.props.lineColor || "black" }
           ]}
         />
-        <Text style=[{this.props.fontSize && {fontSize: this.props.fontSize}}, {paddingLeft: this.props.textPadding || 3, paddingRight: this.props.textPadding || 3}, {...this.props.textStyles}]>{this.props.text}</Text>
+        <Text style={[this.props.fontSize && {fontSize: this.props.fontSize}, {paddingLeft: this.props.textPadding || 3, paddingRight: this.props.textPadding || 3}, this.props.textStyles]}>{this.props.text}</Text>
         <View
           style={[
             styles.side,
