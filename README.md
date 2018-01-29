@@ -24,7 +24,7 @@ import Hr from "react-native-hr-component";
 
 Your Text Styles will be applied to the "Dummy Text" you passed in.
 ```
-textWithDivider: {
+customStylesHere: {
     fontWeight: "bold",
     color: "orange"
 }
