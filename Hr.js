@@ -28,7 +28,7 @@ export default Hr
 
 Hr.propTypes = {
   thickness: PropTypes.number,
-  lineColor: PropTypes.color,
+  lineColor: PropTypes.string,
   text: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number
