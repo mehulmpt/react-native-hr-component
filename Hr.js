@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 class Hr extends Component {
   render() {
     return (
-      <View style={[styles.row, {marginLeft: this.props.hrPadding, marginRight: this.props.hrPadding}]}>
+      <View style={[styles.row, {marginLeft: this.props.hrPadding, marginRight: this.props.hrPadding}, this.props.hrStyles]}>
         <View style={[
             styles.side,
             { height: this.props.thickness || 1, backgroundColor: this.props.lineColor || "black" }
@@ -36,5 +36,6 @@ Hr.propTypes = {
   fontSize: PropTypes.number,
   textPadding: PropTypes.number,
   hrPadding: PropTypes.number,
+  hrStyles: PropTypes.object,
   textStyles: PropTypes.object
 };

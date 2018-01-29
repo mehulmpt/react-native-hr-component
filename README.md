@@ -35,13 +35,14 @@ textWithDivider: {
 
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
-| color | "black" | `color` | Color for the border on both sides |
-| thickness | 1 | `number` | Thickness of the hr bar |
-| text | 1 | `number or string` | Text between the hr bars |
-| textStyles | {} | `object` | Stylesheet object applied on the text supplied |
-| textPadding | 3 | `number` | Distance between text and hr bars |
-| fontSize | Default App value | `number` | Font size of text |
-| hrPadding | 0 | `number` | Distance between hr bars and edge of parent component |
+| color | black | color | Color for the border on both sides |
+| thickness | 1 | number | Thickness of the hr bar |
+| text | 1 | number or string | Text between the hr bars |
+| textStyles | {} | object | Stylesheet object applied on the text supplied |
+| hrStyles | {} | object | Stylesheet object applied on the main hr view |
+| textPadding | 3 | number | Distance between text and hr bars |
+| fontSize | Default App value | number | Font size of text |
+| hrPadding | 0 | number | Distance between hr bars and edge of parent component |
 
 **Note:** Setting through textStyles will overwrite the default CSS behavior provided by textPadding, fontSize, etc.
 
