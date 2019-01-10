@@ -6,24 +6,24 @@ Use this component if you want to add and customize text between a line in your 
 
 ## Installation
 NPM
-```
+```sh
 npm i react-native-hr-component -S
 ```
 
 Yarn
-```
+```sh
 yarn add react-native-hr-component
 ```
 
 ## Usage
-```
+```jsx
 import Hr from "react-native-hr-component";
 
 <Hr lineColor="#eee" width={1} text="Dummy Text" textStyles={customStylesHere} />
 ```
 
 Your Text Styles will be applied to the "Dummy Text" you passed in.
-```
+```js
 customStylesHere: {
     fontWeight: "bold",
     color: "orange"
