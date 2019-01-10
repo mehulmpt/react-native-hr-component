@@ -44,5 +44,6 @@ Hr.propTypes = {
 Hr.defaultProps = {
 	thickness: 1,
 	lineColor: "black",
-	textPadding: 3
+	textPadding: 3,
+	hrPadding: 0
 }
