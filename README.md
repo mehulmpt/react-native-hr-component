@@ -2,7 +2,7 @@
 
 Use this component if you want to add and customize text between a line in your component, something like this:
 
-------------------- Your Text Goes Here -------------------
+![Example](https://raw.githubusercontent.com/mehulmpt/react-native-hr-component/master/example.jpeg)
 
 ## Installation
 NPM
