@@ -35,7 +35,7 @@ customStylesHere: {
 
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
-| color | black | color | Color for the border on both sides |
+| lineColor | black | color | Color for the border on both sides |
 | thickness | 1 | number | Thickness of the hr bar |
 | text | 1 | number or string | Text between the hr bars |
 | textStyles | {} | object | Stylesheet object applied on the text supplied |
